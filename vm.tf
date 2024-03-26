@@ -1,5 +1,5 @@
 resource "google_compute_instance" "default" {
-  name         = "edward-instance-data-source-100"
+  name         = "edward-instance-data-source-100-main"
   machine_type = "n2-standard-2"
   zone         = "asia-east1-a"
 
